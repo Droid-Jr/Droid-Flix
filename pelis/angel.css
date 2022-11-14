@@ -117,7 +117,7 @@ footer{
     justify-items: center;
 
 
-    margin: 2rem 3rem;
+    margin: 1rem 1rem;
 }
 
 i img{
@@ -142,14 +142,14 @@ i img:hover{
 
 
     .pel{
-        
-         
         display: flex;
-        flex-direction: column;
+        justify-content: space-evenly;
     }
 
 
-    img{
+    div img{
+        width: 150px;
+        height: 200px;
         display: flex;
         justify-items: center;
         margin: auto auto;
@@ -163,22 +163,33 @@ i img:hover{
         padding: auto auto;
         
     }
+
+    .descri h1{
+        font-size: 25px;
+    }
     
     .descri h2{
+        font-size: 15px;
         margin: auto auto;
         padding: auto auto;
     }
     
     
     .descri p{
+        font-size: 10px;
         text-align: center;
         margin: auto auto;
         padding: auto auto;
     }
 
     video{
-        width: auto;
-        height: auto;
+        width: 420px;
+        height: 350px;
         border: solid red 2px;
+    }
+
+    footer{
+        margin: auto;
+        padding: auto;
     }
 }
