@@ -47,8 +47,8 @@ body{
 
 
 .pel{
-    width: 80%;
-    height: 80%;
+    width: 800px;
+    height: 520px;
     background-color: hwb(0 0% 100% / 0.664);
 
     box-shadow: red 0px 0px 10px 1px inset,
@@ -71,6 +71,10 @@ img{
             red 0px 0px 10px 1px;
 }
 
+
+.descri h1{
+    font-size: 40px;
+}
 
 .descri{
     text-align: center;
@@ -119,6 +123,7 @@ footer{
 }
 
 i img{
+    margin: .6rem;
     box-shadow: none;
 }
 
@@ -133,11 +138,13 @@ i img:hover{
 
 
     h1{
-        font-size: 35px;
+        font-size: 25px;
     }
 
 
     .pel{
+        width: auto;
+        height: auto;
         display: flex;
         justify-content: space-evenly;
     }
@@ -161,7 +168,7 @@ i img:hover{
     }
 
     .descri h1{
-        font-size: 25px;
+        font-size: 20px;
     }
     
     .descri h2{
