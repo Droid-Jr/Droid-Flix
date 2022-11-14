@@ -42,6 +42,8 @@ body{
     display: flex;
     justify-content: center;
     justify-items: center;
+    width: auto auto;
+    height: auto auto;
 
 }
 
@@ -66,7 +68,7 @@ body{
 
 
 img{
-    margin: 50px;
+    margin: 80px  20px;
     box-shadow: red 0px 0px 10px 1px inset,
             red 0px 0px 10px 1px;
 }
@@ -113,17 +115,51 @@ footer{
     display: flex;
     justify-content: center;
     justify-items: center;
-    margin: 2rem  2rem;
+
+
+    
 }
 
 i img{
     box-shadow: none;
-    padding: .3em .4em;
-    
+    padding: .2em .3em;
 }
 
 i img:hover{
     box-shadow: red 0px 0px 10px 1px inset,
     red 0px 0px 10px 1px;
     padding: .6em .8em;
+}
+
+
+
+
+
+@media (max-width:800px){
+
+
+    h1{
+        font-size: 35px;
+    }
+
+
+    .pel{
+        
+         
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    img{
+        display: flex;
+        justify-items: center;
+        margin: auto auto;
+    }
+
+    video{
+        width: 450px;
+        height: 300px;
+        border: solid red 2px;
+    }
 }

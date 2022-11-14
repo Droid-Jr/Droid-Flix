@@ -43,6 +43,8 @@ body{
     display: flex;
     justify-content: center;
     justify-items: center;
+    width: auto auto;
+    height: auto auto;
 
 }
 
@@ -128,4 +130,37 @@ i img:hover{
     box-shadow: red 0px 0px 10px 1px inset,
     red 0px 0px 10px 1px;
     padding: .6em .8em;
+}
+
+
+
+
+
+@media (max-width:800px){
+
+
+    h1{
+        font-size: 35px;
+    }
+
+
+    .pel{
+        
+         
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    img{
+        display: flex;
+        justify-items: center;
+        margin: auto auto;
+    }
+
+    video{
+        width: 450px;
+        height: 300px;
+        border: solid red 2px;
+    }
 }

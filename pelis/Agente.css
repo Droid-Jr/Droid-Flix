@@ -42,7 +42,8 @@ body{
     display: flex;
     justify-content: center;
     justify-items: center;
-
+    width: auto auto;
+    height: auto auto;
 }
 
 
@@ -132,14 +133,12 @@ i img:hover{
 
 
 
-@media (max-width:720px){
+@media (max-width:800px){
 
 
     h1{
         font-size: 35px;
     }
-
-
 
 
     .pel{
@@ -151,12 +150,14 @@ i img:hover{
 
 
     img{
-        margin: 130px;
+        display: flex;
+        justify-items: center;
+        margin: auto auto;
     }
 
     video{
-        width: 650px;
-        height: 450px;
+        width: 450px;
+        height: 300px;
         border: solid red 2px;
     }
 }
