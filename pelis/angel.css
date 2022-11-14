@@ -131,3 +131,32 @@ i img:hover{
     cursor: pointer;
     padding: .6em .8em;
 }
+
+@media (max-width:720px){
+
+
+    h1{
+        font-size: 35px;
+    }
+
+
+
+
+    .pel{
+        
+         
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    img{
+        margin: 130px;
+    }
+
+    video{
+        width: 650px;
+        height: 450px;
+        border: solid red 2px;
+    }
+}

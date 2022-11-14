@@ -128,3 +128,35 @@ i img:hover{
     red 0px 0px 10px 1px;
     padding: .9em .7em;
 }
+
+
+
+
+@media (max-width:720px){
+
+
+    h1{
+        font-size: 35px;
+    }
+
+
+
+
+    .pel{
+        
+         
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    img{
+        margin: 130px;
+    }
+
+    video{
+        width: 650px;
+        height: 450px;
+        border: solid red 2px;
+    }
+}
