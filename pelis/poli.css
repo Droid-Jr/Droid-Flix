@@ -151,8 +151,8 @@ i img:hover{
 
 
     div img{
-        width: 150px;
-        height: 200px;
+        width: 80px;
+        height: 100px;
         display: flex;
         justify-items: center;
         margin: auto auto;
@@ -186,8 +186,8 @@ i img:hover{
     }
 
     video{
-        width: 420px;
-        height: 350px;
+        width: 320px;
+        height: 250px;
         border: solid red 2px;
     }
 
