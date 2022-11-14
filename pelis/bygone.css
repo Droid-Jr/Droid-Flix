@@ -157,9 +157,27 @@ i img:hover{
         margin: auto auto;
     }
 
+
+
+    .descri{
+        text-align: center;
+        margin: auto;
+        
+    }
+    
+    .descri h2{
+        margin: auto auto;
+    }
+    
+    
+    .descri p{
+        text-align: center;
+        margin: auto auto;
+    }
+
     video{
-        width: 450px;
-        height: 300px;
+        width: auto;
+        height: auto;
         border: solid red 2px;
     }
 }
