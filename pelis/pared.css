@@ -17,8 +17,7 @@ header{
     align-items: center;
 
 
-
-    background-image: url(img2/uchiha2.png);
+    background-image: url(img2/uchiha.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,15 +42,13 @@ body{
     display: flex;
     justify-content: center;
     justify-items: center;
-    width: auto auto;
-    height: auto auto;
 
 }
 
 
 .pel{
-    width: 80%;
-    height: 80%;
+    width: 800px;
+    height: 520px;
     background-color: hwb(0 0% 100% / 0.664);
 
     box-shadow: red 0px 0px 10px 1px inset,
@@ -69,11 +66,15 @@ body{
 
 
 img{
-    margin: 80px  20px;
+    margin: 50px;
     box-shadow: red 0px 0px 10px 1px inset,
             red 0px 0px 10px 1px;
 }
 
+
+.descri h1{
+    font-size: 40px;
+}
 
 .descri{
     text-align: center;
@@ -118,33 +119,32 @@ footer{
     justify-items: center;
 
 
-    
+    margin: 2rem 3rem;
 }
 
 i img{
+    margin: .6rem;
     box-shadow: none;
-    padding: .2em .3em;
 }
 
 i img:hover{
     box-shadow: red 0px 0px 10px 1px inset,
     red 0px 0px 10px 1px;
-    padding: .6em .8em;
+    padding: .9em .7em;
 }
-
-
-
 
 
 @media (max-width:800px){
 
 
     h1{
-        font-size: 35px;
+        font-size: 25px;
     }
 
 
     .pel{
+        width: auto;
+        height: auto;
         display: flex;
         justify-content: space-evenly;
     }
@@ -168,7 +168,7 @@ i img:hover{
     }
 
     .descri h1{
-        font-size: 25px;
+        font-size: 20px;
     }
     
     .descri h2{
