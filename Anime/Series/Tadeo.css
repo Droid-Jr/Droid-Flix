@@ -232,11 +232,11 @@ h5:hover{
     
     h5:hover{
         background-color: transparent;
-        border: solid red 2px;
+        border: solid red 1px;
         border-radius: 15px;
-        box-shadow: red 0px 0px 15px 2px inset,
-                    red 0px 0px 15px 2px;
-        padding: .35em .35em;            
+        box-shadow: red 0px 0px 12px 1px inset,
+                    red 0px 0px 12px 1px;
+        padding: .25em .25em;            
     }
    
 }
